@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 PAGE_ACCESS_TOKEN = 'EAAO9sv01cTUBO0TYJM7ZBWOESZCkZC82H16Dkp5LvVcWw2SFbM3cmXS6YpzfhRKpcttZC147Agvu4v61z3GDKJkwW8csaJg1IJw2rFq0VuiMSbR3JNewjec8vZBoRsFZCDQeWhoP0VNbOCZBrBrKxZC9ZAZCw4hQwnwLZAJB29xXDzSpe8bezy7MOvpQJBobf0iN6FL'
-VERIFY_TOKEN = 'your_webhook_verify_token'
+VERIFY_TOKEN = 'ghorishopaiagent'
 
 @app.route('/', methods=['GET'])
 def verify():
